@@ -103,4 +103,4 @@ with col3:
 
 # --- 4. FOOTER ---
 st.write("---")
-st.markdown('<p style="text-align:center; color:gray;">© 2024 Putsie Industries - Built by Elliot</p>', unsafe_allow_html=True)
+st.markdown('<p style="text-align:center; color:gray;">© 2024 Putsie Company - Built by Elliot and Olive</p>', unsafe_allow_html=True)
