@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- 1. CONFIGURATIE ---
-st.set_page_config(page_title="Putsie Hub 🚀", layout="wide")
+st.set_page_config(page_title="Putsie Studios", layout="wide")
 
 # --- 2. THE ULTIMATE PUTSIE DESIGN ---
 st.markdown("""
@@ -64,7 +64,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- 3. DE CONTENT ---
-st.markdown('<h1 class="main-title">PUTSIE WORLD 🌎</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">PUTSIE Studios 🌎</h1>', unsafe_allow_html=True)
 st.markdown('<p style="text-align:center; color:white; font-size:20px; margin-bottom:50px;">Welkom in het universum van Elliot. Kies je bestemming.</p>', unsafe_allow_html=True)
 
 # Maak kolommen voor je verschillende "apps"
@@ -73,7 +73,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     # HIER MOET DE URL VAN JE EDUCATION APP KOMEN
     # Als je hem op Streamlit Cloud hebt gezet, plak je die link hier:
-    edu_url = "https://jouw-app-naam.streamlit.app" 
+    edu_url = "https://putsieeducation.streamlit.app"
     
     st.markdown(f"""
         <a href="{edu_url}" target="_self" class="portal-card">
